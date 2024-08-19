@@ -1,4 +1,11 @@
 
+function toggleDropdown() {
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+}
+
+
+    // accordion
 
 function toggleAccordion(accordion) {
     const content = accordion.querySelector('.accordion-content');
